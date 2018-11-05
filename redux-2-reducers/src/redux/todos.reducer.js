@@ -20,4 +20,16 @@ let initialState = [
 
 // Create your reducer function below
 
-export default () => {}
+export default (state - initialState, action) => {
+  switch (action.type) {
+    case ADD_TODO:
+    let newTodo = {
+      id:
+    }
+      return
+
+      break;
+    default:
+
+  }
+}
