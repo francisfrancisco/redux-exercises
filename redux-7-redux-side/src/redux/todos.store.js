@@ -1,6 +1,5 @@
-// Create your store here!
 import { createStore, combineReducers } from 'redux'
-import todosReducer from './reducer'
+import todosReducer from './todos.reducer'
 
 const rootReducer = combineReducers ({
   todos: todosReducer
